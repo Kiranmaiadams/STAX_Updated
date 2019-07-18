@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stax-SmokeTest">
+<listeners>
+		<listener class-name="com.STAX.ReporterNG" />
+	</listeners>
+
+	<test name="SmokeTest">
+		<groups>
+			<run>
+				<include name="SmokeTestpack" />
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="STAX_Smoketest.staxSmoketest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

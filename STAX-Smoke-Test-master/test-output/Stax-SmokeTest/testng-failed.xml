@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Stax-SmokeTest]">
+  <listeners>
+    <listener class-name="com.STAX.ReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTestpack"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="STAX_Smoketest.staxSmoketest">
+        <methods>
+          <include name="startreport"/>
+          <include name="teardown"/>
+          <include name="bookOnewayflight"/>
+        </methods>
+      </class> <!-- STAX_Smoketest.staxSmoketest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Stax-SmokeTest] -->

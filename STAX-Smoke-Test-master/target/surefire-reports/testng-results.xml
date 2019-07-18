@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Stax-SmokeTest" duration-ms="27692" started-at="2019-07-12T09:54:42Z" finished-at="2019-07-12T09:55:10Z">
+    <groups>
+      <group name="SmokeTestpack">
+        <method signature="staxSmoketest.bookOnewayflight()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="bookOnewayflight" class="STAX_Smoketest.staxSmoketest"/>
+        <method signature="staxSmoketest.staxRegistration()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="staxRegistration" class="STAX_Smoketest.staxSmoketest"/>
+      </group> <!-- SmokeTestpack -->
+    </groups>
+    <test name="SmokeTest" duration-ms="27692" started-at="2019-07-12T09:54:42Z" finished-at="2019-07-12T09:55:10Z">
+      <class name="STAX_Smoketest.staxSmoketest">
+        <test-method status="PASS" signature="startreport()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="startreport" is-config="true" duration-ms="300" started-at="2019-07-12T10:54:42Z" finished-at="2019-07-12T10:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="bookOnewayflight()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="bookOnewayflight" duration-ms="8824" started-at="2019-07-12T10:54:43Z" finished-at="2019-07-12T10:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookOnewayflight -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="teardown" is-config="true" duration-ms="1677" started-at="2019-07-12T10:54:51Z" finished-at="2019-07-12T10:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="staxRegistration()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="staxRegistration" duration-ms="15725" started-at="2019-07-12T10:54:53Z" finished-at="2019-07-12T10:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staxRegistration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:STAX_Smoketest.staxSmoketest@353352b6]" name="teardown" is-config="true" duration-ms="1132" started-at="2019-07-12T10:55:09Z" finished-at="2019-07-12T10:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- STAX_Smoketest.staxSmoketest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Stax-SmokeTest -->
+</testng-results>

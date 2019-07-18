@@ -1,0 +1,11 @@
+node {
+
+stage ('Git checkout'){
+git "https://github.com/gururajsta/STAX-Smoke-Test.git"
+}
+
+stage ('Build'){ 
+bat "run.bat"
+}
+
+}
